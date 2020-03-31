@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVID-19 Xray Project</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h1 align="center" class="display-1">Welcome to COVID-Kicker</h1>
+		<br>
+		<h4 align="center">A fully automated, deep learning powered REST API to detect COVID-19 from X-ray images.</h4>
+		<br>
+
+		<div class="alert alert-success" role="alert">
+		  <h4 class="alert-heading">Doing our part!</h4>
+		  <p>The COVID-19 pandemic is not new to anyone. The number of cases are growing so fast such that the pace at which the counter-measures are being coduncted is not enough. Many individuals and companies have built deep learning based solutions around the publicly available datasets but the data is flowing in as new cases keep popping up.</p>
+		  <p>This project proposes a solution to keep up with the new data. A REST API to serve the deep learning model to detect COVID-19 from XRay images and an automated pipeline that trains the model with the new data and updates the API.</p>
+		  <hr>
+		  <p class="mb-0">TLDR: This project involves an automated pipeline and a REST API to train and deploy COVID detection model.</p>
+		</div>
+		<br>
+		<h1 align="center" class="display-1">Usage</h1>
+		<h4 align="center">You can use curl to test the API or any other API testing tool like POST man</h4>
+		<br>
+		<!-- <div class="container" style="background-color: #A9A9A9; height: 200px; width: 500px"> -->
+			<pre>
+			curl -i \
+			  -X POST \
+			  -H "Content-Type: multipart/form-data" \
+			  -F "image=@your_image_name" \
+			   http://api-covid.eastus2.azurecontainer.io/api</pre>
+		<!-- </div> -->
+
+		<br>
+		<h1 align="center" class="display-1">Architecture</h1>
+		<div class="text-center">
+		<img src="https://i.imgur.com/y71AiHB.jpg" width="873px" height="436px">
+		</div>
+		<br>
+		<br>
+		<br>
+		
+	</div>
+</body>
+</html>
+
