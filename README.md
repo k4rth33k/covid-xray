@@ -1,5 +1,7 @@
 # covid-xray
-#### A fully automated, deep learning powered REST API to detect COVID-19 from X-ray images.
+#### A fully automated, deep learning powered REST API to detect COVID-19 from X-ray images with automated retraining.
+
+**Automation:The model will be re-trained every three days with the new data and the API will be refreshed**
 
 ## Usage
 You can use curl to test the API or any other API testing tool like postman
