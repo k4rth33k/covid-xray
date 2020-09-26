@@ -1,4 +1,4 @@
-tensorflow==1.15.2
+tensorflow==1.15.4
 opencv-python==4.0.0.21
 scikit-learn
 matplotlib
