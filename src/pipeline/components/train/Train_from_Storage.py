@@ -14,7 +14,7 @@ import numpy as np
 # In[2]:
 
 
-file_service = FileService(account_name='covidmodels', account_key='cem1AQ/4Kb+OwutpMredIKiWqeEvP29BGfaCOudw0NIHyo1U+tMF6tbheJF4zeR42L6TIEv+/MPIDdLnCnO5xw==')
+file_service = FileService(account_name='covidmodels', account_key='')
 
 
 # In[ ]:
