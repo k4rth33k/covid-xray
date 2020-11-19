@@ -3,7 +3,7 @@ from urllib.request import urlopen
 from azure.storage.file import FileService
 from azure.storage.file import ContentSettings
 
-file_service = FileService(account_name='covidmodels', account_key='cem1AQ/4Kb+OwutpMredIKiWqeEvP29BGfaCOudw0NIHyo1U+tMF6tbheJF4zeR42L6TIEv+/MPIDdLnCnO5xw==')
+file_service = FileService(account_name='covidmodels', account_key='')
 
 def upload_to_azure(url, filename):
 	print(f'Uploading {filename}')
