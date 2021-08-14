@@ -20,3 +20,6 @@ You can use curl to test the API or any other API testing tool like postman
  - Both the entities communicate via a Azure file share which is attached as a volume to the API container.
  
 ![Our architecture](https://i.imgur.com/zfjxm3x.jpg)
+
+
+
