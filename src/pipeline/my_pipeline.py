@@ -2,6 +2,7 @@
 
 import kfp
 from kfp import dsl
+import os
 
 def get_new_images_op():
     return dsl.ContainerOp(
